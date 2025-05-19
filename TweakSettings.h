@@ -8,7 +8,7 @@ BOOL VoteSubmissionEnabled();
 BOOL ExactLikeNumber();
 BOOL ExactDislikeNumber();
 BOOL UseRawData();
-BOOL TextFormat();
+BOOL UseRYDLikeData();
 
 void enableVoteSubmission(BOOL enabled);
 
@@ -17,6 +17,6 @@ void enableVoteSubmission(BOOL enabled);
 #define ExactLikeKey @"RYD-EXACT-LIKE-NUMBER"
 #define ExactDislikeKey @"RYD-EXACT-NUMBER"
 #define UseRawDataKey @"RYD-USE-RAW-DATA"
-#define TextFormatKey @"RYD-TEXT-FORMAT"
+#define UseRYDLikeDataKey @"RYD-USE-LIKE-DATA"
 
 #endif

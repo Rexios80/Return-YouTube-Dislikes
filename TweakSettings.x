@@ -24,9 +24,9 @@ BOOL UseRawData() {
     return [[NSUserDefaults standardUserDefaults] boolForKey:UseRawDataKey];
 }
 
-BOOL TextFormat() {
-     return [[NSUserDefaults standardUserDefaults] boolForKey:TextFormatKey];
- }
+BOOL UseRYDLikeData() {
+    return [[NSUserDefaults standardUserDefaults] boolForKey:UseRYDLikeDataKey];
+}
 
 void enableVoteSubmission(BOOL enabled) {
     [[NSUserDefaults standardUserDefaults] setBool:enabled forKey:EnableVoteSubmissionKey];
